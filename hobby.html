@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hobby</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Index</a></li>
+          <li><a href="hobby.html">Hobby</a></li>
+          <li><a href="https://www.wpi.edu">WPI Home Page</a></li>
+          <li>
+            <a href="https://worldrowing.com/">World Rowing</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header>
+      <h1>Welcome to My Hobby Page</h1>
+      <p>Learn about Rowing</p>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>About Rowing</h2>
+          <p>
+            Rowing, often called crew in the United States, is the sport of
+            racing boats using oars. It differs from paddling sports in that
+            rowing oars are attached to the boat using rowlocks, while paddles
+            are not connected to the boat. Rowing is divided into two
+            disciplines: sculling and sweep rowing. In sculling, each rower
+            holds two oars, one in each hand, while in sweep rowing each rower
+            holds one oar with both hands. There are several boat classes in
+            which athletes may compete, ranging from single sculls, occupied by
+            one person, to shells with eight rowers and a coxswain, called
+            eights. There are a wide variety of course types and formats of
+            racing, but most elite and championship level racing is conducted on
+            calm water courses 2 kilometres (1.2 mi) long with several lanes
+            marked using buoys.
+          </p>
+        </article>
+
+        <aside>
+          <h3>Fun Facts</h3>
+          <ul>
+            <li>Rowing is one of the oldest Olympic sports.</li>
+            <li>Rowing is a full-body workout.</li>
+            <li>Rowing is a low-impact sport.</li>
+            <li>Rowing is a great way to enjoy nature.</li>
+            <li>I have been rowing for 8 years.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <h2>Share Your Interests</h2>
+        <form>
+          <!-- Input text box -->
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <!-- Text area -->
+          <label for="interests">Tell us about your interests:</label><br />
+          <textarea
+            id="interests"
+            name="interests"
+            rows="4"
+            cols="50"
+          ></textarea
+          ><br /><br />
+
+          <!-- Checkboxes -->
+          <p>Which of these hobbies interest you?</p>
+          <input type="checkbox" id="hobby1" name="hobbies" value="hobby1" />
+          <label for="hobby1">Rowing</label><br />
+          <input type="checkbox" id="hobby2" name="hobbies" value="hobby2" />
+          <label for="hobby2">Kayaking</label><br />
+          <input type="checkbox" id="hobby3" name="hobbies" value="hobby3" />
+          <label for="hobby3">Canoeing</label><br /><br />
+
+          <!-- Radio buttons -->
+          <p>How often do you enjoy your hobbies?</p>
+          <input type="radio" id="daily" name="frequency" value="daily" />
+          <label for="daily">Daily</label><br />
+          <input type="radio" id="weekly" name="frequency" value="weekly" />
+          <label for="weekly">Weekly</label><br />
+          <input type="radio" id="monthly" name="frequency" value="monthly" />
+          <label for="monthly">Monthly</label><br /><br />
+
+          <!-- Dropdown -->
+          <label for="favorite-hobby">Select your favorite hobby:</label>
+          <select id="favorite-hobby" name="favorite-hobby">
+            <option value="hobby1">Rowing</option>
+            <option value="hobby2">Kayaking</option>
+            <option value="hobby3">Canoeing</option></select
+          ><br /><br />
+
+          <!-- Submit button -->
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <br />
+    <footer>
+      <p>© 2025 Ariel Schechter Hobby Page</p>
+    </footer>
+  </body>
+</html>
